@@ -1,10 +1,13 @@
 package br.com.bloglais.desafiobloglais.model;
 
+import lombok.Data;
+
 import javax.persistence.*;
 import java.time.LocalDateTime;
 import java.util.List;
 
 @Entity
+@Data
 public class Postagem {
 
     @Id

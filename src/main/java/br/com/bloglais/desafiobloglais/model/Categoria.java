@@ -1,9 +1,12 @@
 package br.com.bloglais.desafiobloglais.model;
 
+import lombok.Data;
+
 import javax.persistence.*;
 import java.util.List;
 
 @Entity
+@Data
 public class Categoria {
 
     @Id
